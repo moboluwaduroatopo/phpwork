@@ -33,7 +33,7 @@ $result= $newStudent->getData($query);
      <br> <div class="col-md-6 col-xl-5 mb-4  " style="margin: 0 auto">
                     <!--Form-->
                     <div class="card wow fadeInRight" data-wow-delay="0.3s">
-                      <form method="post" action="/login" >
+                      <form method="post" action="editaction.php" >
                       <div class="card-body">
                         <!--Header-->
                         <div class="text-center">

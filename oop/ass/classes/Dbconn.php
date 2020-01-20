@@ -15,7 +15,7 @@ class Dbconn{
     	{
     		echo"cannot connect to the database".$this->conn->connect_error;
     	}else{
-    		//echo"connect";
+    		// echo"connect";
     		return true;
     	}
     }

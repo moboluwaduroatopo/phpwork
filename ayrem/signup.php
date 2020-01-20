@@ -17,14 +17,14 @@
                 <div class="col">
                     <!-- First name -->
                     <div class="md-form">
-                        <input type="text" id="materialRegisterFormFirstName" name="fname" class="form-control">
+                        <input type="text" id="materialRegisterFormFirstName" name="fname" class="form-control" required="required">
                         <label for="materialRegisterFormFirstName">First name</label>
                     </div>
                 </div>
                 <div class="col">
                     <!-- Last name -->
                     <div class="md-form">
-                        <input type="text" id="materialRegisterFormLastName" name="lname" class="form-control">
+                        <input type="text" id="materialRegisterFormLastName" name="lname" class="form-control" required="required">
                         <label for="materialRegisterFormLastName">Last name</label>
                     </div>
                 </div>
@@ -33,14 +33,14 @@
                 <div class="col">
                     <!-- First name -->
                     <div class="md-form">
-                        <input type="text" id="materialRegisterFormFirstName" name="state" class="form-control">
+                        <input type="text" id="materialRegisterFormFirstName" name="state" class="form-control" required>
                         <label for="materialRegisterFormFirstName">State</label>
                     </div>
                 </div>
                 <div class="col">
                     <!-- Last name -->
                     <div class="md-form">
-                        <input type="text" id="materialRegisterFormFirstName" name="uname" class="form-control">
+                        <input type="text" id="materialRegisterFormFirstName" name="uname" class="form-control" required>
                         <label for="materialRegisterFormFirstName">Username</label>
                     </div>
                 </div>
@@ -52,20 +52,20 @@
                     </div>
                 </div> -->
                 <div class="md-form mt-3">
-                <input type="text" id="materialContactFormName" class="form-control" name="phone">
+                <input type="number" id="materialContactFormName" class="form-control" name="phone" required>
                 <label for="materialContactFormName">Phone Number</label>
             </div>
             <div class="form-row">
                 <div class="col">
                     <div class="md-form">
-                        <input type="email" id="materialRegisterFormLastName" name="email" class="form-control">
+                        <input type="email" id="materialRegisterFormLastName" name="email" class="form-control" required>
                         <label for="materialRegisterFormLastName">Email</label>
                     </div>
                 </div>
                 <div class="col">
                     <!-- Last name -->
                     <div class="md-form">
-                        <input type="password" id="materialRegisterFormPassword" name="pwd" class="form-control" aria-describedby="materialRegisterFormPasswordHelpBlock">
+                        <input type="password" id="materialRegisterFormPassword" name="pwd" class="form-control" aria-describedby="materialRegisterFormPasswordHelpBlock" required>
                 <label for="materialRegisterFormPassword">Password</label>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
 
             <!-- Phone number -->
             <label for="materialRegisterFormPassword">Where did you hear about us? </label>
-     <select class="mdb-select md-form form-control" name="about" searchable="Search here..">
+     <select class="mdb-select md-form form-control" name="about" searchable="Search here.." required>
        <option value="" disabled selected>Choose </option>
        <option value="Facebook">Facebook</option>
        <option value="Google">Google</option>

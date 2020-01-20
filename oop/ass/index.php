@@ -3,14 +3,17 @@
 <?php
 require_once 'classes/Crud.php';
 $query ="SELECT * FROM  oop_tb  ORDER BY id DESC";
+
 //$id = $_GET['id'];
 $newStudent = new Crud;
 $result= $newStudent->getData($query);
 
 foreach ($result as $res) {
+
 	$id=$res['id'];
     $fname = $res['first_name'];
     $lname = $res['last_name'];
+    echo $fname;
    // $email = $res['email'];
 }
 ?>

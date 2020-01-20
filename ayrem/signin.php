@@ -13,13 +13,13 @@
 
       <!-- Email -->
       <div class="md-form">
-        <input type="text" id="materialLoginFormEmail" name="username" class="form-control">
+        <input type="text" id="materialLoginFormEmail" name="username" class="form-control" required>
         <label for="materialLoginFormEmail">Username</label>
       </div>
 
       <!-- Password -->
       <div class="md-form">
-        <input type="password" id="materialLoginFormPassword" name="password" class="form-control">
+        <input type="password" id="materialLoginFormPassword" name="password" class="form-control" required>
         <label for="materialLoginFormPassword">Password</label>
       </div>
 

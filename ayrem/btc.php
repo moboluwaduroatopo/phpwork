@@ -83,8 +83,10 @@
 <p class="text-center">Bitcoin Price: Sell @ #350/$</p>
 <!--/.Carousel Wrapper-->
 <div>
-	<h3 style="color: #66cc99">To Sell e-currency</h3>
-	<p>Please contact us. (By using the form below ) or call us 07069205659<br>
+	<h3 style="color: #66cc99">To Sell e-currency follow the instruction below</h3>
+	<p>Step 1: Copy the wallet address to transfer bitcoin from your bitcoin wallet to our own wallet<br>
+Step 2: After performing transaction on your device, screenshot the confirmation page provided to you by your bitcoin wallet<br>
+Step 3: Send the screenshot of the confirmation page on our whatsapp by click <a href="https://api.whatsapp.com/send?phone=2347069205659&text=I will like to trade a gift card. I am coming from data.ayremglobal.com.ng website." class="btn btn-secondary">Start trading</a><br>
 </p>
 </div><br><br>
  <?php include('cont.php'); ?>

@@ -127,15 +127,17 @@ function sproducts(q)
            
           </tbody>
         </table>
-          <div class="md-form col-md-6" id="tb" style="color: red;text-align: left; "  onkeyup="first()">
-                       Total: <input type="text" id="Total" class="total" name="total" class="form-control"><input type="button" name="" id="copyButton" value="C">
+        <div class="row">
+          <div class="md-form col-md-4" id="tb" style="color: red;text-align: left; "  onkeyup="first()">
+                       Total: <br><input type="text" id="Total" class="total" name="total" class="form-control"><input type="button" name="" id="copyButton" value="C">
                     </div>
-                     <div class="md-form col-md-6" id="tb" style="color: red;text-align: left; "  onkeyup="first()">
+                     <div class="md-form col-md-4" id="tb" style="color: red;text-align: left; "  onkeyup="first()">
                        Tendering:  <input type="text"  id="Tendering" class="tende" name="tende" class="form-control">
                     </div>
-                     <div class="md-form col-md-6" id="tb" style="color: red;text-align: left; "  onkeyup="first()">
+                     <div class="md-form col-md-4" id="tb" style="color: red;text-align: left; "  onkeyup="first()">
                        Change: <input type="text"  id="Change" class="chang" name="chang" class="form-control">
                     </div>
+                  </div>
                     <input type="hidden" value="<?php echo $_SESSION['adminid']?>" name="id" > 
                     <div class="md-form col-md-6" id= "displaStaff" >
                       Issued by:  <input name='nid' id='id' type="text"  value="<?php  echo $_SESSION['name']." ".$_SESSION['middle'] ; ?>" disabled="disabled" class="form-control">

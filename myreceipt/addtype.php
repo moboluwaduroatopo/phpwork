@@ -36,7 +36,7 @@
 <!-- Text input-->
 
 <div class="form-group">
-  <label class="col-md-6 control-label" for="textinput" id="color">New Categories</label>  
+  <label class="col-md-6 control-label text-co" for="textinput" id="color">New Categories</label>  
   <div class="col-md-8">    
   <input id="Nproduct" name="type_name" type="New product" placeholder="New categories" class="form-control input-md" required="">
     

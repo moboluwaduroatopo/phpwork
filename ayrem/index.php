@@ -15,9 +15,10 @@
       <!--Mask color-->
       <div class="view">
         <!--Video source-->
-        <video class="video-fluid" style='height:600px;width: 100%' autoplay loop muted>
-          <source src="images/Lines.mp4" type="video/mp4" />
-        </video>
+        <img class="d-block w-100" src="images/data.jpg" alt="" style='height:600px;width: 100%'>
+    <!--     <video class="video-fluid"  autoplay loop muted>
+          <source src="images/data.mp4" type="video/mp4" />
+        </video> -->
         <div class="mask rgba-indigo-light"></div>
       </div>
 
@@ -25,10 +26,10 @@
       <div class="carousel-caption">
         <div class="animated fadeInDown">
           <!-- Card -->
-             <h3 class="h3-responsive">MTN DATA PLANS </h3>
-          <p>500mb =#500 & 1GB = #550</p>
+             <h3 class="h3-responsive">Buy now</h3>
+         <!--  <p>500mb =#500 & 1GB = #550</p>
           <p>2GB = #1100 & 3GB = #1650</p>
-          <p>4GB =#2200 & 5GB = #2750</p>
+          <p>4GB =#2200 & 5GB = #2750</p> -->
           
 <!-- Card -->
         </div>
@@ -43,7 +44,7 @@
       <div class="view">
         <!--Video source-->
 
-        <img class="d-block w-100" src="images/edit.jpg" alt="" style='height:600px;width: 100%'>
+        <img class="d-block w-100" src="images/edit.jpg" alt=""  style='height:600px;width: 100%'>
        <!--  <video class="video-fluid" autoplay loop muted>
           <source src="https://mdbootstrap.com/img/video/animation-intro.mp4" type="video/mp4" />
         </video> -->
@@ -65,9 +66,9 @@
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <!--Video source-->
-        <video class="video-fluid" style='height:600px;width: 100%' autoplay loop muted>
-          <source src="images/Tropical.mp4" type="video/mp4" />
+        <!--Video source  style='height:600px;width: 100%'-->
+        <video class="video-fluid"  autoplay loop muted>
+          <source src="images/Lines.mp4" type="video/mp4" />
         </video>
         <div class="mask rgba-black-strong"></div>
       </div>
@@ -97,10 +98,10 @@
   <!--/.Controls-->
 </div>
 
-<div class="container" style="float: ">
+<!-- <div class="container" style="float: ">
 <a href="login.php"><button type="button" class="btn btn-info btn-rounded">Login</button></a>
 <a href="register.php"><button type="button" class="btn btn-light btn-rounded">Register</button></a>
-</div>
+</div> -->
 <div class="container">
 	<h2 class="text-center default-color"><span style="color: white">Our</span>  <span style="color: red">Services</span></h2>
 <div class="row">
@@ -174,6 +175,80 @@
 
 </div>
 <div class="container">
+    <h2 class="h1-responsive font-weight-bold my-5 text-center">Watch Video</h2>
+   <!--  <p>Are you new to bitcoin? Watch this short clip to know more.</p> -->
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/cFj72hrUZt4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cFj72hrUZt4"  allowfullscreen></iframe> -->
+</div>
+<h2 class="h1-responsive font-weight-bold my-5 text-center">BTC Exchange Rate</h2>
+<ul class="nav nav-tabs md-tabs" id="myTabEx" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active show" id="home-tab-ex" data-toggle="tab" href="#home-ex" role="tab" aria-controls="home-ex"
+      aria-selected="true">USD</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="profile-tab-ex" data-toggle="tab" href="#profile-ex" role="tab" aria-controls="profile-ex"
+      aria-selected="false">EUR</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="contact-tab-ex" data-toggle="tab" href="#contact-ex" role="tab" aria-controls="contact-ex"
+      aria-selected="false">GPB</a>
+  </li>
+</ul>
+<div class="tab-content pt-5" id="myTabContentEx">
+  <div class="tab-pane fade active show" id="home-ex" role="tabpanel" aria-labelledby="home-tab-ex">
+   
+ <div class="float-left">Bitcoin(BTC)</div>
+
+<div class="float-right">
+  <div class="d-inline p-2   font-weight-bold">$11,706.00</div>
+<div class="d-inline p-2 font-weight-bold  pink-text">0.11%</div>
+<!-- <span><p>Float right on all viewport sizes</p>
+<p>float</p></span> <div class="d-inline p-2 bg-primary text-white">Inline</div>
+<div class="d-inline p-2 bg-dark  text-white">Inline</div>-->
+</div>
+   <!--  <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro
+      synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher
+      retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip
+      placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p> -->
+  </div>
+  <div class="tab-pane fade" id="profile-ex" role="tabpanel" aria-labelledby="profile-tab-ex">
+    <div class="float-left">Bitcoin(BTC)</div>
+
+<div class="float-right">
+  <div class="d-inline p-2   font-weight-bold">€10,391.65</div>
+<div class="d-inline p-2 font-weight-bold  pink-text">0.11%</div>
+<!-- <span><p>Float right on all viewport sizes</p>
+<p>float</p></span> <div class="d-inline p-2 bg-primary text-white">Inline</div>
+<div class="d-inline p-2 bg-dark  text-white">Inline</div>-->
+</div>
+  <!--   <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1
+      labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft
+      beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad
+      vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar
+      helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes
+      anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party
+      scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p> -->
+  </div>
+  <div class="tab-pane fade" id="contact-ex" role="tabpanel" aria-labelledby="contact-tab-ex">
+     <div class="float-left">Bitcoin(BTC)</div>
+
+<div class="float-right">
+  <div class="d-inline p-2   font-weight-bold">£9,336.39</div>
+<div class="d-inline p-2 font-weight-bold  pink-text">0.11%</div>
+<!-- <span><p>Float right on all viewport sizes</p>
+<p>float</p></span> <div class="d-inline p-2 bg-primary text-white">Inline</div>
+<div class="d-inline p-2 bg-dark  text-white">Inline</div>-->
+</div>
+   <!--  <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro
+      fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone
+      skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings
+      gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork
+      biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl
+      craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p> -->
+  </div>
+</div>
 	<!-- Section: Testimonials v.1 -->
 <section class="text-center my-5 p-1">
 

@@ -1,4 +1,4 @@
-sI9BQ4of#3t#4N
+<!-- sI9BQ4of#3t#4N -->
 <!-- Footer -->
 <footer class="page-footer font-small teal pt-4">
 
